@@ -1,0 +1,35 @@
+select object > en dessous du menu collection la partie properties > à gauche de la properties tab render > render engine EEVEE
+puis verifier si :
+- motion blur disbaled
+- ambient occlusion disbaled
+- bloom disbaled
+- scene space reflection disbaled
+
+select object > en dessous du menu collection la partie properties > à gauche de la properties tab render > color management
+puis
+view standard > standard
+
+shift + A > image > references > select images
+
+en haut à gauche, à coté du menu file, edit menu > préférences > addons > search bar "rigify" > enable it
+
+shift + A > armature > rigify meta rigs > human
+
+reset all tranform, alt + R, alt + S, alt + G || en haut à gauche à coté de  la liste deroulante object mode, Object > Clear > Rotation
+en haut à gauche à coté de  la liste deroulante object mode, Object > Clear > location
+en haut à gauche à coté de  la liste deroulante object mode, Object > Clear > scale
+puis
+type R > type X > type 90 (numpad) > click pour confirmer
+puis
+type 1 numpad = frontview > appuyer sur enter
+
+select image > en dessous du menu collection la partie properties > à gauche de la properties tab data > empty > opacity > 0.5
+
+select image (face) type G > type Y > reculer un peu > click pour confirmer
+
+select image (profil) type R > type Z > type 90 (numpad) > click pour confirmer
+
+numpad 3 > align image (profil) avec le rigify
+
+
+=====================================
