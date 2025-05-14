@@ -31,5 +31,22 @@ select image (profil) type R > type Z > type 90 (numpad) > click pour confirmer
 
 numpad 3 > align image (profil) avec le rigify
 
-
 =====================================
+
+click on rigify rig > type H
+
+shift + A > mesh > cube > en haut à gauche, switch to edit mode, press TAB
+
+en haut à gauche, a coté de la liste deroulante edit mode, face mode > select a face
+
+type S > numpad 1 > xray mode, alt + Z > vertex mode
+puis
+box select > tyge G + X
+
+ctrl + R = loop cut
+
+shift + A > mesh > cylinder > en bas à gauche, vertices > 
+puis
+en bas à gauche, cap fill type > Nothing
+
+type S > numpad 1 > xray mode, alt + Z > vertex mode
