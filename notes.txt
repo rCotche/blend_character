@@ -50,3 +50,17 @@ puis
 en bas à gauche, cap fill type > Nothing
 
 type S > numpad 1 > xray mode, alt + Z > vertex mode
+
+=====================================
+
+shift + A > mesh > cube > xray mode, alt + Z > type S > numpad 1
+
+ctrl + R > cut au millieu
+puis
+face mode > box select > delete la patie de droite
+puis
+en bas de la collection, partie properties > select tab modifier > add new > search mirror
+
+sil y a un gaps entre l'objet d'origine et l'objet mirroré alors, verifie la position du transform > type N > iteme > x axis == 0
+
+edge mode > select edge > select 2nd edge, hold shift > ctrl + e > bridge edge loops
