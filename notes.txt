@@ -61,6 +61,23 @@ face mode > box select > delete la patie de droite
 puis
 en bas de la collection, partie properties > select tab modifier > add new > search mirror
 
-sil y a un gaps entre l'objet d'origine et l'objet mirroré alors, verifie la position du transform > type N > iteme > x axis == 0
+sil y a un gaps entre l'objet d'origine et l'objet mirroré alors, verifie la position du transform > type N > item > x axis == 0
 
 edge mode > select edge > select 2nd edge, hold shift > ctrl + e > bridge edge loops
+
+GAPS ISSUE
+++++++++++++++++++++++++
+
+Enter Edit Mode: Select your object and press Tab to switch to Edit Mode.
+
+Select Vertices: Choose the vertices you want to align.
+
+Scale Along X-axis: Press S (to scale), then X (to constrain to the X-axis), then 0, and press Enter. This will align all selected vertices along the same X-coordinate.
+
+If you want to align the vertices to a specific X-coordinate (e.g., X=0), you can:
+
+Open the Sidebar: Press N to open the sidebar in the 3D Viewport.
+
+Set X-coordinate: In the "Item" tab, under "Transform", type 0 in the X field. To apply this to all selected vertices, hold Alt and press Enter .
+
+++++++++++++++++++++++++
