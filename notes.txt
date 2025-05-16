@@ -112,3 +112,11 @@ edit mode > edge mode > select edge > delete > disolve edge
 Web
 
 3d medelers resources, https://www.models-resource.com
+
+=====================================
+
+shift + A > cube > place it > scale it
+puis
+edit mode > face mode > select la face du bas > delete > faces, ref images
+puis
+loop cut, ctrl + R > face mode > delete la moitie > select front image > en bas de la collection, partie properties > select tab modifier > add new > mirror
