@@ -81,3 +81,14 @@ Open the Sidebar: Press N to open the sidebar in the 3D Viewport.
 Set X-coordinate: In the "Item" tab, under "Transform", type 0 in the X field. To apply this to all selected vertices, hold Alt and press Enter .
 
 ++++++++++++++++++++++++
+
+face mode > Type A == select all > Type S > Type Y
+
+main
+face mode > type E == Extrude > disable x ray mode > Press F3 > search "merge" > select merge at center
+
+TIPS
+Lors d'un shift + A, il vaut mieux être en objet mode
+
+=====================================
+
