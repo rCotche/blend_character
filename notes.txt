@@ -92,3 +92,5 @@ Lors d'un shift + A, il vaut mieux être en objet mode
 
 =====================================
 
+select front image > en bas de la collection, partie properties > select tab data > opacity == 0.2
+
