@@ -128,4 +128,6 @@ puis
 select les 3 vertices du haut > Type G + Z, move down
 
 
-ref images, modeling hair step...
+ref images, modeling hair step…
+puis
+object mode > select top hair > select face > ctrl + G
