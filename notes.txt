@@ -150,3 +150,12 @@ select edge > type e to extrude > select face > type e to extrude > type M merge
 =====================================
 
 object mode > select object > numpad /
+
+object mode > en bas de la collection, partie properties > select tab modifier > liste deroulante > Apply
+
+object mode > select foot > en bas de la collection, partie properties > select tab modifier > add new > mirror
+object mode > select leg > en bas de la collection, partie properties > select tab modifier > add new > mirror
+object mode > select hand > en bas de la collection, partie properties > select tab modifier > add new > mirror
+object mode > select arm > en bas de la collection, partie properties > select tab modifier > add new > mirror
+
+object mode > select cursor mode > shift + c > select object > object menu en haut à droit à coté de la liste deroulante object mode, edit mode > set origin > origin to 3d cursor
