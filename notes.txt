@@ -158,4 +158,6 @@ object mode > select leg > en bas de la collection, partie properties > select t
 object mode > select hand > en bas de la collection, partie properties > select tab modifier > add new > mirror
 object mode > select arm > en bas de la collection, partie properties > select tab modifier > add new > mirror
 
+**https://www.youtube.com/watch?v=-ioeQAhxkb8
+**heres a fix if you cant get the arms and hands to work! in the mirror modifier  looks for "mirror object" then click it then select the torso. then it should be fixed.
 object mode > select cursor mode > shift + c > select object > object menu en haut à droit à coté de la liste deroulante object mode, edit mode > set origin > origin to 3d cursor
