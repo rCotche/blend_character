@@ -161,3 +161,20 @@ object mode > select arm > en bas de la collection, partie properties > select t
 **https://www.youtube.com/watch?v=-ioeQAhxkb8
 **heres a fix if you cant get the arms and hands to work! in the mirror modifier  looks for "mirror object" then click it then select the torso. then it should be fixed.
 object mode > select cursor mode > shift + c > select object > object menu en haut à droit à coté de la liste deroulante object mode, edit mode > set origin > origin to 3d cursor
+
+=====================================
+
+object mode > select head > en bas de la collection, partie properties > select tab material > new > rename LoveChanBody
+puis
+surface > click on "principled BSDF" > menu > press e, select emission
+
+en bas à gauche au niveau du terminal, click sur le premier btn à gauche (ref image) > menu > select shader editor > drag n drop the image in shader editor
+|| shuft + A > type "image" > texture image > open > select image
+puis
+texture color output (node) to input color emission (node)
+puis
+en haut à gauche, au niveau du menu file, select UV Editing mode > on 3d model view, numpad 1 > edit mode > type Z > select render
+puis
+select faces (qui compose le visage de love chan) > type U > menu > select project from view (ref image)
+puis
+sur la droite, uv editor (act like 3d view, meme commande, pour naviguer) > Type A > Type G to move the UV at the face "zone in texture"
