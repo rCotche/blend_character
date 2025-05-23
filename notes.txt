@@ -146,3 +146,7 @@ edit mode > select 2 vertices > type M (merge) > at last (merge sur le dernier v
 edit mode > select 2 edges > type F (fill) ref images
 
 select edge > type e to extrude > select face > type e to extrude > type M merge
+
+=====================================
+
+object mode > select object > numpad /
