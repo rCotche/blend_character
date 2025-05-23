@@ -130,4 +130,19 @@ select les 3 vertices du haut > Type G + Z, move down
 
 ref images, modeling hair step…
 puis
-object mode > select top hair > select face > ctrl + G
+
+++++++++++++++++++++++++
+object mode > select top hair > select face > ctrl + J
+Ctrl + J — Fusionner des objets
+Toujours en mode Objet, ce raccourci fusionne tous les objets sélectionnés en un seul. Cela est particulièrement utile pour combiner plusieurs maillages en un seul objet, simplifiant ainsi la gestion et l'édition.
+
+Ctrl + G — Grouper des objets dans une collection
+En mode Objet, ce raccourci permet de regrouper les objets sélectionnés dans une nouvelle collection. Les collections facilitent l'organisation de la scène en regroupant des objets liés, ce qui est utile pour la gestion de la hiérarchie, la visibilité et le rendu.
+++++++++++++++++++++++++
+
+edit mode > type M (merge) > at center
+edit mode > select 2 vertices > type M (merge) > at last (merge sur le dernier vertex selected)
+
+edit mode > select 2 edges > type F (fill) ref images
+
+select edge > type e to extrude > select face > type e to extrude > type M merge
