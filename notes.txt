@@ -155,7 +155,6 @@ object mode > en bas de la collection, partie properties > select tab modifier >
 
 object mode > select foot > en bas de la collection, partie properties > select tab modifier > add new > mirror
 object mode > select leg > en bas de la collection, partie properties > select tab modifier > add new > mirror
-object mode > select hand > en bas de la collection, partie properties > select tab modifier > add new > mirror
 object mode > select arm > en bas de la collection, partie properties > select tab modifier > add new > mirror
 
 **https://www.youtube.com/watch?v=-ioeQAhxkb8
@@ -178,3 +177,23 @@ puis
 select faces (qui compose le visage de love chan) > type U > menu > select project from view (ref image)
 puis
 sur la droite, uv editor (act like 3d view, meme commande, pour naviguer) > Type A > Type G to move the UV at the face "zone in texture"
+
+=====================================
+
+hide the effect of mirror modifier pour simplifier l'etape des UVS
+object mode > select foot > en bas de la collection, partie properties > select tab modifier > click on the 3rd btn to hide mirror, ref image
+object mode > select leg > en bas de la collection, partie properties > select tab modifier > click on the 3rd btn to hide mirror, ref image
+object mode > select arm > en bas de la collection, partie properties > select tab modifier > click on the 3rd btn to hide mirror, ref image
+
+dans certain moteur de jeux avoir UV qui se superpose peut poser probleme (pas le cas pour ce modele dans blender)
+
+edit mode > select foot > en bas de la collection, partie properties > select tab material > click on icon material, ref image > select LoveChanBody, texture only visible in render mode
+puis
+select faces in face mode (qui compose le cote de la chaussure)> type U > menu > select project from view (ref image)
+puis
+sur la droite, uv editor (act like 3d view, meme commande, pour naviguer) > Type A > Type G to move the UV at the face "zone in texture"
+
+to rotate a UV : Type A, select all > Type S > Type X > enter > en bas à gauche, resize menu, click it > set the value to -1
+
+IMPORTANT
+toujours avoir la vu ortographic lors de l'etape de UV, car l'action "project from view" se base sur la camera, l'angle de vue pour unwrap le model 3d
